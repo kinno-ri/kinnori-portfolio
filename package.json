@@ -1,0 +1,13 @@
+{
+  "name": "kinnori-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx live-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
