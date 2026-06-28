@@ -634,6 +634,10 @@ nav {
   background: #fff8e0;
   border-color: transparent;
 }
+.fw.green-card {
+  background: rgba(0, 201, 167, 0.15);
+  border-color: transparent;
+}
 .fw-ttl {
   font-size: 0.68rem;
   font-weight: 700;
@@ -649,6 +653,9 @@ nav {
 }
 .fw.yellow-card .fw-ttl {
   color: #9a7000;
+}
+.fw.green-card .fw-ttl {
+  color: #00967d;
 }
 .fw ul {
   list-style: none;
@@ -671,6 +678,9 @@ nav {
 .fw.yellow-card li {
   color: var(--dark);
 }
+.fw.green-card li {
+  color: var(--dark);
+}
 .fw li::before {
   content: "→";
   font-size: 0.65rem;
@@ -684,6 +694,9 @@ nav {
 }
 .fw.yellow-card li::before {
   color: #9a7000;
+}
+.fw.green-card li::before {
+  color: var(--teal);
 }
 
 /* WHY — now white background */
